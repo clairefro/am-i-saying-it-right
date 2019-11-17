@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+}
+
+div {
+  margin: 16px 0;
+}
+
+.container {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lang-select-container {
+  display: flex;
+}
