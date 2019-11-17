@@ -1,6 +1,6 @@
-import { speakText } from './js/textToSpeech.js';
-import { recognizeSpeech } from './js/speechToText.js';
-import { compare } from './js/compare.js';
+import { speakText } from './libs/textToSpeech.js';
+import { recognizeSpeech } from './libs/speechToText.js';
+import { compare } from './libs/compare.js';
 
 /////////////////////////////////////
 // get html elements
