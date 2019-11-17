@@ -1,4 +1,5 @@
 import { speakText } from './textToSpeech.js';
+import { recognizeSpeech } from './speechToText.js';
 
 
 // get html elements
@@ -17,6 +18,19 @@ speakButton.addEventListener('click', (e) => {
 
   // call our method
   speakText(text, lang);
+});
+
+recognizeButton.addEventListener('click', (e) => {
+  const lang = langSelector.value;
+
+  // call our method to get transcript from speech
+  recognizeSpeech(lang)
+     // then display the transcript to the textbox when ready
+     .then((result) => {
+        sttTextbox.value = result;
+     });
+
+
 });
 
 
