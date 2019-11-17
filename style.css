@@ -17,6 +17,11 @@ div {
   display: flex;
 }
 
+.lang-select-container p {
+  margin-right: 16px;
+
+}
+
 h3.correct {
   color: green;
 }
