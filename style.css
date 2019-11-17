@@ -16,3 +16,11 @@ div {
 .lang-select-container {
   display: flex;
 }
+
+h3.correct {
+  color: green;
+}
+
+h3.incorrect {
+  color: red;
+}

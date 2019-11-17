@@ -1,5 +1,6 @@
 import { speakText } from './textToSpeech.js';
 import { recognizeSpeech } from './speechToText.js';
+import { compare } from './compare.js';
 
 /////////////////////////////////////
 // get html elements
@@ -38,7 +39,11 @@ recognizeButton.addEventListener('click', (e) => {
      // then display the transcript to the textbox when ready
      .then((result) => {
         sttTextbox.value = result;
-     });
+     })
+     // then compare the two text fields and tell the user if they're right/wrong
+     .then(() => {
+      compare(ttsTextbox.value, sttTextbox.value)
+    });
 });
 
 
