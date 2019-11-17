@@ -1,6 +1,6 @@
-import { speakText } from './textToSpeech.js';
-import { recognizeSpeech } from './speechToText.js';
-import { compare } from './compare.js';
+import { speakText } from './js/textToSpeech.js';
+import { recognizeSpeech } from './js/speechToText.js';
+import { compare } from './js/compare.js';
 
 /////////////////////////////////////
 // get html elements
@@ -30,6 +30,8 @@ speakButton.addEventListener('click', (e) => {
 recognizeButton.addEventListener('click', (e) => {
   // clear textbox
   sttTextbox.value = "";
+  // let user know mic is on
+  sttTextbox.placeholder = "listening..."
 
   // get language
   const lang = langSelector.value;
