@@ -4,6 +4,7 @@ import { recognizeSpeech } from './speechToText.js';
 /////////////////////////////////////
 // get html elements
 /////////////////////////////////////
+
 const speakButton = document.getElementById('tts-button');
 const ttsTextbox = document.getElementById('tts-textbox');
 
@@ -15,6 +16,7 @@ const langSelector = document.getElementById('lang-select');
 /////////////////////////////////////
 // add listeners for buttons
 /////////////////////////////////////
+
 speakButton.addEventListener('click', (e) => {
   // get text and langauge
   const text = ttsTextbox.value;
