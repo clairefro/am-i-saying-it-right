@@ -1,4 +1,4 @@
-// define a method to speak text from text box
+// define a method to speak text in specified language
 const speakText = (text, lang) => {
   // speechSynthesis only "speaks" SpeechSynthesisUtterance's. Let's make one.
   const u = new SpeechSynthesisUtterance();
