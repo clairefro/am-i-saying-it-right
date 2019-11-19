@@ -6,7 +6,7 @@ const speakText = (text, lang) => {
   // configure our new utterance
   u.text = text;
   u.lang = lang;
-  // u.rate = 1;  // optional: change speaking speed (0.1 - 1)
+  // u.rate = 1;  // optional: change speaking speed (0.1 [slow] - 1 [normal])
 
   // finally, call speechSynthesis.speak(utterance) to make the browser speak!
   speechSynthesis.speak(u);
