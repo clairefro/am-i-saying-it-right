@@ -13,7 +13,9 @@ const recognizeSpeech = async (lang) => {
 
     // on result of recognition, resolve promise with the transcript, if captured
     recognition.addEventListener('result', (event) => {
+
       if (event.results.length > 0) {
+        console.log(event);
         resolve(event.results[0][0].transcript);
       }
       else {
