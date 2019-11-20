@@ -6,7 +6,7 @@
 A simple app for testing your pronunciation of words in various langauges.
 Only supported in Chrome 33+ browsers.
 
-## ⇒Test the app live [here](https://clairefro.github.io/am-i-saying-it-right/)!
+## ⇒ Test the app live [here](https://clairefro.github.io/am-i-saying-it-right/)!
 
 ### SpeechSynthesis basic syntax
 The speechSynthesis interface only "speaks" SpeechSysnthesisUtterance instances.
