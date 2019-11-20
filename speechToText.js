@@ -15,7 +15,6 @@ const recognizeSpeech = async (lang) => {
     recognition.addEventListener('result', (event) => {
 
       if (event.results.length > 0) {
-        console.log(event.results);
         resolve(event.results[0][0].transcript);
       }
       else {
