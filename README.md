@@ -9,7 +9,7 @@ Only supported in Chrome 33+ browsers.
 ## Test the app live [here](https://clairefro.github.io/am-i-saying-it-right/)
 
 ### SpeechSynthesis basic syntax
-speechSynthesis only "speaks" SpeechSysnthesisUtterance instances.
+The speechSynthesis interface only "speaks" SpeechSysnthesisUtterance instances.
 ```javascript
 const utterance = new SpeechSynthesisUtterance();
 
