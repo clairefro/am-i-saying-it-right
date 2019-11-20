@@ -36,16 +36,19 @@ recognition.addEventListener('result', (event) => {
 * [Web Speech API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
 * [Browser compatibility and issues](https://caniuse.com/#search=web%20speech%20api)
 * [Ancient and difficult to read W3C specification for hard-core nerds](https://wicg.github.io/speech-api/)
+* [Using Web Speech API in Firefox](https://hacks.mozilla.org/2016/01/firefox-and-the-web-speech-api/)
 
 #### SpeechSynthesis
 * [SpeechSynthesis documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
 
 *Demos*
 * [Cool multilingual text to speech demo](https://codepen.io/matt-west/pen/wGzuJ)
+* [Speech synthesizer testing language, pitch, rate](http://mdn.github.io/web-speech-api/speak-easy-synthesis/)
 * [Google Cloud Text to Speech demo](https://cloud.google.com/text-to-speech/) (test out the wavenet voice! don't get too excited - you have to pay for it)
 
 #### SpeechRecognition
-* [SpeechRecognition documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)
+* [SpeechRecognition documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) 
+* [How to enable in Firefox](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/SpeechRecognition) (scroll to bottom of page)
 
 *Continuous speech recognition*
 * [How to implement continuous recognition](https://stackoverflow.com/questions/29996350/speech-recognition-run-continuously)
@@ -55,7 +58,7 @@ recognition.addEventListener('result', (event) => {
 *Grammars*
 * [Grammars documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/grammars)
 * [JSpeech Grammar Format documentation](https://www.w3.org/TR/jsgf/)
-* [Change background color by voice demo](https://mdn.github.io/web-speech-api/speech-color-changer/)
+* [Change background color by voice demo](https://mdn.github.io/web-speech-api/speech-color-changer/) (for Chrome and Firefox)
 * [Tutorial for 'change background color by voice' demo](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
 
 
