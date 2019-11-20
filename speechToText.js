@@ -1,6 +1,6 @@
 // get transcript from user speech
 const recognizeSpeech = async (lang) => {
-  // make a promise, to return text transcript when results ready
+  // make a promise, to return text transcript when results processed and ready
   const promise = new Promise((resolve, reject) => {
     // create new instance of SpeechRecognition
     const recognition = new webkitSpeechRecognition(); // Chrome only
