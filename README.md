@@ -50,7 +50,7 @@ recognition.addEventListener('result', (event) => {
 *Continuous speech recognition*
 * [How to implement continuous recognition](https://stackoverflow.com/questions/29996350/speech-recognition-run-continuously)
 * [Continuous speech recognition Google demo](https://www.google.com/intl/en/chrome/demos/speech.html)
-* [SpeechRecognition.lang](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/lang)
+* [SpeechRecognition.lang property](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/lang)
 
 *Grammars*
 * [Grammars documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/grammars)
