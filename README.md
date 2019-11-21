@@ -44,7 +44,6 @@ recognition.addEventListener('result', (event) => {
 *Demos*
 * [Cool multilingual text to speech demo](https://codepen.io/matt-west/pen/wGzuJ)
 * [Speech synthesizer testing language, pitch, rate](http://mdn.github.io/web-speech-api/speak-easy-synthesis/)
-* [Google Cloud Text to Speech demo](https://cloud.google.com/text-to-speech/) (test out the wavenet voice! don't get too excited - you have to pay for it)
 
 #### SpeechRecognition
 * [SpeechRecognition documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) 
