@@ -33,20 +33,20 @@ recognition.addEventListener('result', (event) => {
 ```
 ## Further reading
 #### Web Speech API
-* [Web Speech API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+* **[Web Speech API documentation](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)**
 * [Browser compatibility and issues](https://caniuse.com/#search=web%20speech%20api)
 * [Ancient and difficult to read W3C specification for hard-core nerds](https://wicg.github.io/speech-api/)
 * [Using Web Speech API in Firefox](https://hacks.mozilla.org/2016/01/firefox-and-the-web-speech-api/)
 
 #### SpeechSynthesis
-* [SpeechSynthesis documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
+* **[SpeechSynthesis documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)**
 
 *Demos*
 * [Cool multilingual text to speech demo](https://codepen.io/matt-west/pen/wGzuJ)
 * [Speech synthesizer testing language, pitch, rate](http://mdn.github.io/web-speech-api/speak-easy-synthesis/)
 
 #### SpeechRecognition
-* [SpeechRecognition documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition) 
+* **[SpeechRecognition documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)** 
 * [How to enable in Firefox](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/SpeechRecognition) (scroll to bottom of page)
 
 *Continuous speech recognition*
