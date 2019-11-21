@@ -55,7 +55,7 @@ recognition.addEventListener('result', (event) => {
 * [SpeechRecognition.lang property](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/lang)
 
 *Grammars*
-* [Grammars documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/grammars)
+* **[Grammars documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/grammars)**
 * [JSpeech Grammar Format documentation](https://www.w3.org/TR/jsgf/)
 * [Change background color by voice demo](https://mdn.github.io/web-speech-api/speech-color-changer/) (for Chrome and Firefox)
 * [Tutorial for 'change background color by voice' demo](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
