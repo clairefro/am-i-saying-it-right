@@ -47,6 +47,7 @@ recognition.addEventListener('result', (event) => {
 
 #### SpeechRecognition
 * **[SpeechRecognition documentation](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)** 
+* [Simple SpeechRecognition app tutorial](https://www.freecodecamp.org/news/how-to-build-a-simple-speech-recognition-app-a65860da6108/) (for Chrome and Firefox)
 * [How to enable in Firefox](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/SpeechRecognition) (scroll to bottom of page)
 
 *Continuous speech recognition*
