@@ -1,7 +1,7 @@
 // define a method to speak text in specified language
 const speakText = (text, lang) => {
   // check browser compatibility
-  if (window.speechSynthesis) {
+  if (!window.speechSynthesis) {
     alert('Your browser doesn\'t support text to speech.\nTry Chrome 33+ :)');
   } else {
     // speechSynthesis only "speaks" SpeechSynthesisUtterance's. Let's make one.
