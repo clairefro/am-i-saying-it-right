@@ -3,40 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>Am I saying it right?</title>
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
   <div class="container">
-    <h1>Am I Saying it Right?</h1>
+    <div class="wrapper">
+      <h1>Am I Saying it Right?</h1>
 
-    <div class="lang-select-container">
-      <p>in: </p>
-      <select name="lang" id="lang-select">
-        <option value="en-US">English (North America)</option>
-        <option value="en-GB">English (GB)</option>
-        <option value="fr-FR">Français</option>
-        <option value="de-DE">Deutsch</option>
-        <option value="ja-JA">日本語</option>
-        <option value="es-ES">Español (España)</option>
-        <option value="it-IT">Italiano</option>
-        <option value="ko-KR">한국어 </option>
-        <option value="ru-RU">Русский</option>
-        <option value="zh">普通话（中国大陆)</option>
-      </select>
-    </div>
+      <div class="lang-select-container">
+        <p>in: </p>
+        <select name="lang" id="lang-select">
+          <option value="en-US">English (North America)</option>
+          <option value="en-GB">English (GB)</option>
+          <option value="fr-FR">Français</option>
+          <option value="de-DE">Deutsch</option>
+          <option value="ja-JA">日本語</option>
+          <option value="es-ES">Español (España)</option>
+          <option value="it-IT">Italiano</option>
+          <option value="ko-KR">한국어 </option>
+          <option value="ru-RU">Русский</option>
+          <option value="zh">普通话（中国大陆)</option>
+        </select>
+      </div>
 
-    <div class="input-container">
-      <input type="text" name="tts-text" id="tts-textbox" placeholder="I'm trying to say...">
-      <button id="tts-button">Hear it</button>
-    </div>
+      <div class="input-container">
+        <input type="text" name="tts-text" id="tts-textbox" placeholder="I'm trying to say...">
+        <button id="tts-button">Hear it</button>
+      </div>
 
-    <div class="input-container">
-      <input type="text" name="stt-text" id="stt-textbox" placeholder="click 'Say it' to test your pronunciation!">
-      <button id="stt-button">Say it</button>
-    </div>
+      <div class="input-container">
+        <input type="text" name="stt-text" id="stt-textbox" placeholder="click 'Say it' to test your pronunciation!">
+        <button id="stt-button">Say it</button>
+      </div>
 
-    <div id="result-message">
+      <div id="result-message">
+      </div>    
     </div>
   </div>
 

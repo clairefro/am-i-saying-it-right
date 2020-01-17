@@ -2,8 +2,16 @@ body {
   font-family: sans-serif;
 }
 
+h1, p, option, input {
+  color: #ffad15;
+}
+
 div {
   margin: 16px 0;
+}
+
+h1 {
+  text-shadow: rgba(0,0,0,0.2) 0px 2px 2px;;
 }
 
 .container {
@@ -11,6 +19,16 @@ div {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em 5em;
+  box-shadow: 0px 2px 8px -4px rgba(0,0,0,0.33);
 }
 
 .lang-select-container {
@@ -22,23 +40,29 @@ div {
 }
 
 input {
- padding: 6px 12px;
+ padding: 1em 12px;
  width: 300px;
  border-radius: 20px;
  border: 1px solid #ffad15;
  outline: none;
+ margin-right: 0.4em;
 }
 
 button {
-  padding: 6px 12px;
-  border-radius: 6px;
+  padding: 1em 12px;
+  border-radius: 20px;
   border: 1px solid transparent;
   background-color: #ffad15;
   outline: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.1s;
 }
 
 button:hover {
   cursor: pointer;
+  transition: 0.1s;
+  transform: scaleX(1.05) scaleY(1.05);
 }
 
 select {
@@ -55,6 +79,8 @@ select:hover {
 
 select option {
   background-color: #d9fff1;
+  color:#000000;
+  padding: 1em 0;
 }
 
 h3.correct {
@@ -63,4 +89,16 @@ h3.correct {
 
 h3.incorrect {
   color: red;
+}
+
+#stt-button.listening {
+  background-color: #16ffac;
+  color: #ac16ff;
+}
+
+@media (max-height: 650px) {
+  .container {
+    margin: 0;
+    justify-content: center;
+  }
 }
