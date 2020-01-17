@@ -15,7 +15,6 @@ const recognizeSpeech = async (lang) => {
 
       // toggle animation of button on start/end
       recognition.onstart = (e) => {
-        console.log(e);
         toggleListeningAnimation('add');
       }
       recognition.onend = () => {
