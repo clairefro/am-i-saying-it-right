@@ -113,7 +113,10 @@ h3.incorrect {
     margin: 0;
     justify-content: center;
   }
+}
 
+/* mobile */
+@media only screen and (max-height: 650px) and  (max-width: 450px) {
   .input-container {
     display: flex;
     flex-direction: column;
