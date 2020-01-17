@@ -1,9 +1,15 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Comfortaa', sans-serif;
 }
 
-h1, p, option, input {
+h1, p, input {
   color: #ffad15;
+  font-weight: bold;
+}
+
+p, input, select, button {
+  font-size: 14px;
+  font-family: 'Comfortaa', sans-serif;
 }
 
 div {
@@ -11,7 +17,8 @@ div {
 }
 
 h1 {
-  text-shadow: rgba(0,0,0,0.2) 0px 2px 2px;;
+  text-shadow: rgba(0,0,0,0.16) 1px 2px 2px;
+  color: #ffad15;
 }
 
 .container {
@@ -23,7 +30,7 @@ h1 {
 }
 
 .wrapper {
-  background-color: white;
+  background-color: #fff8e8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,7 +47,7 @@ h1 {
 }
 
 input {
- padding: 1em 12px;
+ padding: 1em 20px;
  width: 300px;
  border-radius: 20px;
  border: 1px solid #ffad15;
@@ -49,7 +56,7 @@ input {
 }
 
 button {
-  padding: 1em 12px;
+  padding: 1em 20px;
   border-radius: 20px;
   border: 1px solid transparent;
   background-color: #ffad15;
@@ -93,7 +100,11 @@ h3.incorrect {
 
 #stt-button.listening {
   background-color: #16ffac;
-  color: #ac16ff;
+  color: #0b7f56;
+}
+
+#result-message {
+  height: 2em;
 }
 
 @media (max-height: 650px) {
