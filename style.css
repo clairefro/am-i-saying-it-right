@@ -116,7 +116,7 @@ h3.incorrect {
 }
 
 /* mobile */
-@media only screen and (max-height: 650px) and  (max-width: 450px) {
+@media only screen and (max-height: 650px) and  (max-width: 622px) {
   .input-container {
     display: flex;
     flex-direction: column;
