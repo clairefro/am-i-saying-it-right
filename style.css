@@ -107,9 +107,19 @@ h3.incorrect {
   height: 2em;
 }
 
+
 @media only screen and (max-height: 650px) {
   .container {
     margin: 0;
     justify-content: center;
+  }
+
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  button {
+    margin-top: 1em;
   }
 }
