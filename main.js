@@ -1,6 +1,6 @@
-import { speakText } from './textToSpeech.js';
-import { recognizeSpeech } from './speechToText.js';
-import { compare } from './compare.js';
+import speakText from './textToSpeech.js';
+import recognizeSpeech from './speechToText.js';
+import compare from './compare.js';
 
 /////////////////////////////////////
 // get html elements
@@ -47,5 +47,3 @@ recognizeButton.addEventListener('click', (e) => {
       compare(ttsTextbox.value, sttTextbox.value)
     });
 });
-
-

@@ -17,4 +17,4 @@ const speakText = (text, lang) => {
   }
 }
 
-export { speakText };
+export default speakText;

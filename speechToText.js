@@ -40,4 +40,4 @@ const recognizeSpeech = async (lang) => {
   }
 };
 
-export { recognizeSpeech };
+export default recognizeSpeech;

@@ -42,4 +42,4 @@ const compare = (originalText, userAttempt) => {
   }
 };
 
-export { compare };
+export default compare;
