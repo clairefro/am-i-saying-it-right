@@ -32,7 +32,7 @@ const displayTimedMessage = (result) => {
 ////////////////////////
 
 
-// compares if user's attempt matches the original text
+// compares whether user's attempt matches the original text
 const compare = (originalText, userAttempt) => {
   // compare texts: case insensitive, whitespace removed
   if (originalText.toUpperCase().replace(/\s+/g, "") === userAttempt.toUpperCase().replace(/\s+/g, "")) {
