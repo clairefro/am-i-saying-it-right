@@ -1,3 +1,4 @@
+// get message container
 const resultMessage = document.getElementById('result-message');
 
 ////////////////////////
@@ -30,7 +31,8 @@ const displayTimedMessage = (result) => {
 };
 
 ////////////////////////
-
+// end helper functions
+////////////////////////
 
 // compares whether user's attempt matches the original text
 const compare = (originalText, userAttempt) => {
