@@ -6,13 +6,13 @@ import compare from './compare.js';
 // get html elements
 /////////////////////////////////////
 
+const langSelector = document.getElementById('lang-select');
+
 const speakButton = document.getElementById('tts-button');
 const ttsTextbox = document.getElementById('tts-textbox');
 
 const recognizeButton = document.getElementById('stt-button');
 const sttTextbox = document.getElementById('stt-textbox');
-
-const langSelector = document.getElementById('lang-select');
 
 /////////////////////////////////////
 // add listeners for buttons
