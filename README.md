@@ -1,11 +1,10 @@
-> A demo from my workshop ["Web Speech API: Playing with voice in your webapps using JavaScript
-"](https://docs.google.com/presentation/d/1CF1F808u_uDI6tPnjoaYRFJR9n44Htu0hdT7WRMeB9A/edit?usp=sharing)
-
 # Am I Saying it Right?
 A simple app for testing your pronunciation of words in various langauges.
 Only supported in Chrome 33+ browsers.
 
-## ⇒ Try the demo [here](https://clairefro.github.io/am-i-saying-it-right/)!
+#### Learn how to make this app with [this tutorial](https://medium.com/@clairefroelich/if-web-apps-could-talk-intro-to-the-web-speech-api-c9f7e0e83aff)
+
+#### Try the demo [here](https://clairefro.github.io/am-i-saying-it-right/)!
 
 ### SpeechSynthesis basic syntax
 The speechSynthesis interface only "speaks" SpeechSysnthesisUtterance instances.
